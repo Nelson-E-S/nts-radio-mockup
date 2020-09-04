@@ -1,0 +1,23 @@
+.picksCard, .picksCardContent{
+    width: 175px;
+    display: flex;
+    flex-flow: column nowrap;
+    background: black;
+    border: 1px solid lightgrey;
+    color: white;
+}
+.picksCardContent{
+    padding: 2%;
+}
+.picksCard .cardDate{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-size: 6pt;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.picksCard .title{
+    font-size: 8pt;
+    font-weight: bold;
+}
