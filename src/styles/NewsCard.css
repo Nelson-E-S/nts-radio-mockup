@@ -3,7 +3,6 @@
     display: flex;
     flex-flow: column nowrap;
     background: black;
-    border: 1px solid lightgrey;
     color: white;
 }
 .newsCardContent{
