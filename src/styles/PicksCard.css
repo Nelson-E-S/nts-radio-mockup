@@ -21,3 +21,9 @@
     font-size: 8pt;
     font-weight: bold;
 }
+.picksCardContent .body{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    height: 75px;
+}

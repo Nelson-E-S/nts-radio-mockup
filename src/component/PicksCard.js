@@ -10,11 +10,13 @@ const PicksCard = (props) =>(
                 <span>{props.date}</span>
                 <span>{props.loc?props.loc:null}</span>
             </div>
-            <span className="title">
-                {props.title}
-            </span>
-            <div className="cardTags">
-                {props.tags.map((item, index)=><PicksTags name={item} key={index}/>)}
+            <div className="body">
+                <span className="title">
+                    {props.title}
+                </span>
+                <div className="cardTags">
+                    {props.tags.map((item, index)=><PicksTags name={item} key={index}/>)}
+                </div>
             </div>
         </div>
     </div>
