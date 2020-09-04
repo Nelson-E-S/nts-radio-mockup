@@ -1,0 +1,24 @@
+.newsCard, .newsCardContent{
+    width: 250px;
+    display: flex;
+    flex-flow: column nowrap;
+    background: black;
+    border: 1px solid lightgrey;
+    color: white;
+}
+.newsCardContent{
+    padding: 2%;
+}
+
+.newsCard .title{
+    font-size: 8pt;
+    font-weight: bold;
+    margin-top: 2%;
+}
+.newsCard .cardHead{
+    font-size: 6pt;
+}
+.newsCard .cardDesc{
+    font-size: 7pt;
+    margin-top: 2%;
+}
