@@ -1,3 +1,6 @@
+.picksCard{
+    margin: 1%;
+}
 .picksCard, .picksCardContent{
     width: 175px;
     display: flex;

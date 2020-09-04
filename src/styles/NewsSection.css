@@ -3,7 +3,6 @@
     color: white;
     display: flex;
     flex-flow: column nowrap;
-    width: 100%;
     border: 1px solid lightgrey;
     border-right: 0px solid black;
     border-left: 0px solid black;
