@@ -1,4 +1,4 @@
-#nts_pics{
+#nts_news{
     background: black;
     color: white;
     display: flex;
@@ -9,10 +9,10 @@
     border-left: 0px solid black;
     padding: 2%;
 }
-#nts_pics h4{
+#nts_news h4{
     margin-bottom: 3%;
 }
-#nts_pics .body{
+#nts_news .body{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;

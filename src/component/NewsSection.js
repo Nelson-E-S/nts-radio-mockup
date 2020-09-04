@@ -1,7 +1,8 @@
 import React from 'react';
 import NewsCard from './NewsCard';
 import {newsData} from '../data/newsData';
-//import '../styles/PicksSection.css'
+import '../styles/NewsSection.css'
+
 const PicksSection = () =>(
     <section id="nts_news">
         <h4>NEWS &amp; EVENTS</h4>
